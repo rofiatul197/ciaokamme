@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+		<link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet" type="text/css">
+
+		<style type="text/css">
+			html,body{font-family:"Open Sans",Arial,sans-serif;font-size:14px;font-weight:400;background:#f3f3f3 url(http://windowsbulletin.com/wp-content/uploads/2019/01/corrupted-SD-card-on-Raspberry-Pi.jpg
+) no-repeat center center fixed;background-size:cover;height:100%}#title{font-family:"Mr Dafoe",Times,serif;font-size:34px;background:rgba(255,255,255,.8);margin-bottom:34px}.header{padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid #eee}a{color:#26ADE4;text-decoration:none}#title a{color:#333;margin-left:21px}#title a:hover{text-decoration:none;color:#26ADE4}.sidebar ul{margin:0;padding:0}.sidebar ul li{list-style:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0 13px 0;padding:13px}.navi a{margin:5px 2px;font-size:95%}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.dwn-cover{max-height: 460px; object-fit: cover;}.main{margin-top: 6rem;}.form-inline .form-control{min-width: 300px;}			
+		</style>
+
+		<title>Raspberry Pi Sd カード 修復</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Raspberry Pi Sd カード 修復",
+  "datePublished": "2021-04-30",
+  "image": [https://lab-b.jp/wp-content/uploads/2014/10/%E5%86%99%E7%9C%9F-2014-10-01-23-23-51.jpg,https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2020/12/raspberry-pi.png,http://windowsbulletin.com/wp-content/uploads/2019/01/fsck-500x356.png],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=raspberry pi sd カード 修復",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+		<!-- Head tag Code -->	</head>
+	<body>
+		<header class="bg-white fixed-top">			
+			<nav class="navbar navbar-light bg-white mb-0">
+				<div class="container justify-content-center justify-content-sm-between">	
+				  <a href="/" title="Blog" class="navbar-brand mb-1">Blog</a>
+				  				</div>			  
+			</nav>				
+		</header>
+		<main class="main container bg-white">
+			<div class="col-md-12 my-4" align="center">
+				<div class="d-block p-4">
+	<br/><center>
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'd232bd6e1c0d85f8dc8c8119bc5f5a1e',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://magnificentmanlyyeast.com/d232bd6e1c0d85f8dc8c8119bc5f5a1e/invoke.js"></scr' + 'ipt>');
+</script></center><br/>
+</div>			</div>
+			<div class="row header">
+				<div class="col-sm-12 text-center p-2">
+						<h1>Raspberry Pi Sd カード 修復</h1>
+
+	
+	<div class="navi text-center">
+					<p>Ad 95 Trial-To-Hire Success. 1422018 Dirty bitがセットされて起動できなくなったRaspberry PiのSDカードをfcskコマンドで修復してみた. 492019 SDカード復旧 Raspberry Pi 3 B. <br>				
+			</p>
+										<a class="badge badge-light" href="/d-%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-itunes-%E3%82%AB%E3%83%BC%E3%83%89-%E8%B2%B7%E3%81%88-%E3%81%AA%E3%81%84.html">d ポイント itunes カード 買え ない</a>
+											<a class="badge badge-success" href="/%E3%82%B3%E3%83%AD%E3%83%8A%E3%81%8A%E6%B9%AF%E3%81%A7%E4%BA%88%E9%98%B2.html">コロナお湯で予防</a>
+											<a class="badge badge-dark" href="/d-%E3%82%AB%E3%83%BC%E3%83%89-10-%E3%83%91%E3%83%BC%E3%82%BB%E3%83%B3%E3%83%88-%E9%82%84%E5%85%83.html">d カード 10 パーセント 還元</a>
+											<a class="badge badge-warning" href="/%E6%95%AC%E8%80%81-%E3%81%AE-%E6%97%A5-%E3%82%AB%E3%83%BC%E3%83%89-%E6%89%8B%E4%BD%9C%E3%82%8A-%E6%96%BD%E8%A8%AD.html">敬老 の 日 カード 手作り 施設</a>
+											<a class="badge badge-info" href="/%E3%82%B3%E3%83%AD%E3%83%8A-%E6%84%9F%E6%9F%93-%E3%82%A8%E3%82%A2-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9.html">コロナ 感染 エア ニュース</a>
+											<a class="badge badge-dark" href="/class-10-sd-%E3%82%AB%E3%83%BC%E3%83%89.html">class 10 sd カード</a>
+											<a class="badge badge-primary" href="/ic-%E3%82%AB%E3%83%BC%E3%83%89-%E6%9B%B8%E3%81%8D%E6%8F%9B%E3%81%88-%E3%82%BD%E3%83%95%E3%83%88.html">ic カード 書き換え ソフト</a>
+											<a class="badge badge-light" href="/readyboost-sd-%E3%82%AB%E3%83%BC%E3%83%89-windows7.html">readyboost sd カード windows7</a>
+											<a class="badge badge-success" href="/b-cas-%E3%82%AB%E3%83%BC%E3%83%89-%E3%81%AE%E3%81%BF.html">b cas カード のみ</a>
+											<a class="badge badge-dark" href="/etc-%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AB%E3%83%BC-%E8%87%AA%E5%88%86-%E3%81%AE.html">etc カード レンタカー 自分 の</a>
+											<a class="badge badge-success" href="/ana-%E3%82%AB%E3%83%BC%E3%83%89-%E4%B8%89%E4%BA%95-%E4%BD%8F%E5%8F%8B-visa.html">ana カード 三井 住友 visa</a>
+											<a class="badge badge-secondary" href="/%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%B3-%E3%82%B7%E3%83%86%E3%82%A3-%E3%82%AB%E3%83%BC%E3%83%89-%E5%89%B2%E5%BC%95-%E6%96%BD%E8%A8%AD.html">ウィーン シティ カード 割引 施設</a>
+											<a class="badge badge-primary" href="/dc-%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88-%E3%81%AE-%E4%BD%BF%E3%81%84%E6%96%B9.html">dc カード ポイント の 使い方</a>
+											<a class="badge badge-danger" href="/%E3%82%B3%E3%83%AD%E3%83%8A-rmk-ag470axp-%E3%83%AA%E3%83%A2%E3%82%B3%E3%83%B3.html">コロナ rmk ag470axp リモコン</a>
+											<a class="badge badge-info" href="/d-%E3%82%AB%E3%83%BC%E3%83%89-%E3%81%8B%E3%82%89-amazon.html">d カード から amazon</a>
+						</div>
+<center>
+	<script type="text/javascript">
+	atOptions = {
+		'key' : 'a7e6ae4bcf1c49afa3b184d0c694ad6c',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://magnificentmanlyyeast.com/a7e6ae4bcf1c49afa3b184d0c694ad6c/invoke.js"></scr' + 'ipt>');
+</script>
+		
+	</center>
+					
+				</div>
+			</div>
+			<div class="row content mb-4">
+				<div class="col-md-12">					
+					
+	
+	<div class="card-columns">
+						
+	  <div class='card'>
+	  	<a href="http://coldmoon.cocolog-nifty.com/photos/uncategorized/2013/01/03/20121230_185415_2.png" data-lightbox="roadtrip" data-title="Raspberry Pi Sdカードコネクタの修復 Moondog S Work Memo">
+						<img class="card-img" src="http://coldmoon.cocolog-nifty.com/photos/uncategorized/2013/01/03/20121230_185415_2.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMgJmFrrfUaPNut5AT_qM0peZpndF3x5INmj-545BoCbVLtObc8mPvgqdAYRwnJT8KiQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi Sdカードコネクタの修復 Moondog S Work Memo
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/t/temcee/20180201/20180201001839.jpg" data-lightbox="roadtrip" data-title="動かなくなったraspberry Pi入りmicro Sdをwindowsから修復させてみた ｗｉｃの中から">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/t/temcee/20180201/20180201001839.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQ_UULu8Y5C_E5dnD8xKq6usrJ9TkcMU69_xX-FHjgtTPRXJsSORoxgFbMb79Flft488';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				動かなくなったraspberry Pi入りmicro Sdをwindowsから修復させてみた ｗｉｃの中から
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/t/temcee/20180202/20180202002123.png" data-lightbox="roadtrip" data-title="動かなくなったraspberry Pi入りmicro Sdをwindowsから修復させてみた ｗｉｃの中から">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/t/temcee/20180202/20180202002123.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYGBPEZmjVKENT3Tsz7xLIum8nOyw1E5iHJmV1eJOdNx3pqYjg2tg2Gp0bBlJklgyELQk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				動かなくなったraspberry Pi入りmicro Sdをwindowsから修復させてみた ｗｉｃの中から
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://coldmoon.cocolog-nifty.com/photos/uncategorized/2013/01/03/20121230_222545.png" data-lightbox="roadtrip" data-title="Raspberry Pi Sdカードコネクタの修復 Moondog S Work Memo">
+						<img class="card-img" src="http://coldmoon.cocolog-nifty.com/photos/uncategorized/2013/01/03/20121230_222545.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Ta6SrtKdIfep7Z0OP650hSkHHia7PXR9CP9oHuTpIcc2TVZUXEd7V-2biLlbAPx0Ajg';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi Sdカードコネクタの修復 Moondog S Work Memo
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://jorublog.site/wp-content/uploads/2019/03/sd_mount.png" data-lightbox="roadtrip" data-title="Raspberry Pi のsdカードが壊れ 起動しなくなってしまった場合の修復方法">
+						<img class="card-img" src="https://jorublog.site/wp-content/uploads/2019/03/sd_mount.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc88rPQnDrCNGg3R-URBXVc0rCtDxB8ucnlK4GOA2k6fCrK4742bGlM3LByg6N9o-P5Pw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi のsdカードが壊れ 起動しなくなってしまった場合の修復方法
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://jorublog.site/wp-content/uploads/wordpress-popular-posts/635-featured-320x160.png" data-lightbox="roadtrip" data-title="Raspberry Pi のsdカードが壊れ 起動しなくなってしまった場合の修復方法">
+						<img class="card-img" src="https://jorublog.site/wp-content/uploads/wordpress-popular-posts/635-featured-320x160.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIcjd3ai2BVE0FWXf8d5MNCTuU4FiHEl5C9lOPC4DEhjWigmoS9-o5lKAeb0S2q2TOAQU';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi のsdカードが壊れ 起動しなくなってしまった場合の修復方法
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+				<div class='card'>	
+			<div class="d-block p-4">
+	
+</div>		  	
+		  	<h3 class="h6 p-2"><b>Ad Compare 768 Vacation Rentals In San Diego CA.</b></h3>
+							<p class="p-2" align="justify">
+											<strong>Raspberry pi sd カード 修復</strong>. 
+					
+											使っていたRaspberry Piにsshで接続できなくなってしまって 何度再起動しても駄目だったのでSDカードの中身だけ抜き出して 再度インストールし直す作業を行いました. 
+											Vetted Raspberry Pi Developers For Your Needs. 
+											Raspberry Pi の SDカードの内容を ddコマンド を使用して全てバックアップする手順を記述しますただしSDカードの記録. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											壊れたRaspberry Pi SDカードスロットを修復する方法Raspberry PiのSDカードスロットを壊すのはとても簡単です私はSDカードに落として私のものを壊しましたあなたがあなたを壊したならばこぼれたPiの上で泣く必要はありません. 
+											供給して起動させてみましたが 見事に逝っちゃってました 起動しません. 
+											まずWindowsでは修復できないようのなで Linuxで修復します おそらくWindowsではデフォルトで見えない領域を修復. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											Top 3 of World-Class Talent On Demand. 
+											342015 不意にSDカードやUSBメモリに触れてしまうトラブルもコレでなくなるはず Raspberry PiのSDカードのext4のRootパーティションをUSBメモリにコピー 次にUSBメモリをRaspberry Piに挿して起動 fdisk -l. 
+											Ad 95 Trial-To-Hire Success. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											More than 1 year has passed since last update. 
+											ストーリー by nagazou 2021年01月08日 18時08分. 
+											貧乏性の ずんべ は壊れたSDカードもがらくた箱に入れてとってあったのだけれどふと思い立って. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											Vetted Raspberry Pi Developers For Your Needs. 
+											Save 75 Off Today. 
+											Focus On Your Project Not Hiring. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											Raspberry Pi の SDカードを ddコマンド でバックアップ. 
+											Kernel panic Kernel panic - not syncing. 
+											Unable to mount root fs on unknown-block 1792 すごく悲しいこの事態への対処方法ををメモします. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											Focus On Your Project Not Hiring. 
+											Save 75 Off Today. 
+											解決方法が見つかりました SDカードに問題がある場合は順番に試してください 別のより大きな電源を使用してください Raspberryとお手持ちのUSB周辺機器の間にパワードハブを接続します 有名なブランドのSDカードを使用してください. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											T_T 以前に Raspberry pi の起動ディスクに使用した後あたりからこんな状態になったのだが書き込みに失敗するなどしてSDカードが壊れたのだと思っていた. 
+											Top 3 of World-Class Talent On Demand. 
+											今回使うソフトは Win32 Disk Imager というもので他の方を見ていると Raspberry PiのSDカードのバックアップをとるためにかなりメジャーに使用されているようです. 
+									</p>
+							<p class="p-2" align="justify">
+					
+											Raspberry Pi2 Model Bで開発しているとシャットダウン. 
+											Ad Compare 768 Vacation Rentals In San Diego CA. 
+									</p>
+					</div>
+		
+						
+	  <div class='card'>
+	  	<a href="http://windowsbulletin.com/wp-content/uploads/2019/01/corrupted-SD-card-on-Raspberry-Pi.jpg" data-lightbox="roadtrip" data-title="修復 Raspberry Piの破損したsdカード Windows速報チュートリアル">
+						<img class="card-img" src="http://windowsbulletin.com/wp-content/uploads/2019/01/corrupted-SD-card-on-Raspberry-Pi.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiY4aJG8H_uzLLG3q0UlO95YMPjC_73aonA98mayEOH0QCu3xJunwKu4zmsTWA0d3PxZk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				修復 Raspberry Piの破損したsdカード Windows速報チュートリアル
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://1.bp.blogspot.com/-46LAWgGwv3g/WjR3-O9yIAI/AAAAAAAAE7w/LkZU1x-Lhow5tg5GU1X9YZOuNAA9WCd0gCLcBGAs/s1600/20171216_01.jpg" data-lightbox="roadtrip" data-title="Raspiのsdカード修復を試してみた Ohsanの忘備録">
+						<img class="card-img" src="https://1.bp.blogspot.com/-46LAWgGwv3g/WjR3-O9yIAI/AAAAAAAAE7w/LkZU1x-Lhow5tg5GU1X9YZOuNAA9WCd0gCLcBGAs/s1600/20171216_01.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_Nwj8Izs37-BFcs6mRteBP6l4ZdOcuZJhQIcu98nWx9MUBRbhYdvV0tb5ioOXOSuYM8';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspiのsdカード修復を試してみた Ohsanの忘備録
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://rcmdnk.com/images/post/thumbnail/20200110_microsd_200_200.jpg" data-lightbox="roadtrip" data-title="Raspberry Piのsdカードからのサルベージ 復旧">
+						<img class="card-img" src="https://rcmdnk.com/images/post/thumbnail/20200110_microsd_200_200.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStInOkUZ8t_pckqIj0frfKa_-kUfY1ZFDj_3DA8x5MBxHQkQvlap6y5YeIJAzsWaRB7AE';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Piのsdカードからのサルベージ 復旧
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/i/ibuquicallig/20191206/20191206010028.png" data-lightbox="roadtrip" data-title="Raspberry Pi Sdカードを丸ごとバックアップする方法について りなっくすとらずぱい">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/i/ibuquicallig/20191206/20191206010028.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSozLdEWxZovLy-R8c1J2fif9KCSwMCEDcUiRDHd2GI0qa3gG5hWjj_miXkgYuCte43eJk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi Sdカードを丸ごとバックアップする方法について りなっくすとらずぱい
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://images-fe.ssl-images-amazon.com/images/I/51opPFsZz2L._SL160_.jpg" data-lightbox="roadtrip" data-title="Raspberry Pi のsdカードが壊れ 起動しなくなってしまった場合の修復方法">
+						<img class="card-img" src="https://images-fe.ssl-images-amazon.com/images/I/51opPFsZz2L._SL160_.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYNBMi2eD3s5BEhyBslbndgwS9zjcEcHcra9RDaZz1gn6kARG1pyVHRS4a5_JKyXvxsw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi のsdカードが壊れ 起動しなくなってしまった場合の修復方法
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://lab-b.jp/wp-content/uploads/2014/10/%E5%86%99%E7%9C%9F-2014-10-01-23-23-51.jpg" data-lightbox="roadtrip" data-title="ラズベリーパイが壊れた そんな時はsdカードの接続を疑おう Makepresso">
+						<img class="card-img" src="https://lab-b.jp/wp-content/uploads/2014/10/%E5%86%99%E7%9C%9F-2014-10-01-23-23-51.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh3CAvfgfInXHqY4qePlRjuRLs870r3ft2h-bUCalCNYoWA5RDG1ZpJ_MeaWkZl4wrrbI';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				ラズベリーパイが壊れた そんな時はsdカードの接続を疑おう Makepresso
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://arkouji.cocolog-nifty.com/blog/images/2016/02/07/img_1170.jpg" data-lightbox="roadtrip" data-title="Raspberry Pi B 復旧 Eeepcの軌跡">
+						<img class="card-img" src="https://arkouji.cocolog-nifty.com/blog/images/2016/02/07/img_1170.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFLBxZNURnclUxMpcLLuc_i1e-Yi5w43aMGIPgAytaegi1KO4-XhUGF35k-mkee62aEi0';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi B 復旧 Eeepcの軌跡
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://lab-b.jp/wp-content/uploads/2014/10/medium_9282719196.jpg" data-lightbox="roadtrip" data-title="ラズベリーパイが壊れた そんな時はsdカードの接続を疑おう Makepresso">
+						<img class="card-img" src="https://lab-b.jp/wp-content/uploads/2014/10/medium_9282719196.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsH9kVbs7-xDNiXBrtncmwqVlTySm5AqoysbCCK--6_twxPdgpVX1sImUEnX44D5gkIKc';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				ラズベリーパイが壊れた そんな時はsdカードの接続を疑おう Makepresso
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://tech.alters.co.jp/wp-content/uploads/2016/01/raspberry_pi_backup.png" data-lightbox="roadtrip" data-title="Raspberry Pi Alters Tech Blog">
+						<img class="card-img" src="http://tech.alters.co.jp/wp-content/uploads/2016/01/raspberry_pi_backup.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9Z8-zN3QDHTnVcnsc6NYVgoiakh59PwwSz8qhtfMkkqKiKUHLpdVSFdtLOICPKQgFcE';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi Alters Tech Blog
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://node-tricks.com/img/fix/482/how-fix-corrupted-sd-card-raspberry-pi.jpg" data-lightbox="roadtrip" data-title="Raspberry Piの破損したsdカードを修正する方法 2021">
+						<img class="card-img" src="https://node-tricks.com/img/fix/482/how-fix-corrupted-sd-card-raspberry-pi.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_8PShT_vZLhsFj_lnF3H2ApVuuq5M_q-K1sXAU3gg5wHCCsb6yUuRMWuD50NT6hiJFbU';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Piの破損したsdカードを修正する方法 2021
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://maimai.holy.jp/dq10/wp-content/uploads/2020/05/2020y05m19d_075345928.png" data-lightbox="roadtrip" data-title="Micro Sdカードが破損 ぼくのラズパイが起動しなくなった まいまい堂 ドラクエ10">
+						<img class="card-img" src="https://maimai.holy.jp/dq10/wp-content/uploads/2020/05/2020y05m19d_075345928.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQPqTA1ED7j2vjfEaO5UFoc65DpCcgpxpjSvOUdjnWA6rmVb2pTjfON2p9_sFEo9qPs_w';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Micro Sdカードが破損 ぼくのラズパイが起動しなくなった まいまい堂 ドラクエ10
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://arkouji.cocolog-nifty.com/photos/uncategorized/2016/02/07/img_1171.jpg" data-lightbox="roadtrip" data-title="Raspberry Pi B 復旧 Eeepcの軌跡">
+						<img class="card-img" src="https://arkouji.cocolog-nifty.com/photos/uncategorized/2016/02/07/img_1171.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJrsOjJ-yHxUGz_YHFRxYaeOt4PTq8bfcdC0KXK38UpP3kyT3rbZ0Ab3dcnYqVBJdW2PY';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Pi B 復旧 Eeepcの軌跡
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DSD%25E3%2582%25AB%25E3%2583%25BC%25E3%2583%2589%25E5%25BE%25A9%25E6%2597%25A7%2520Raspberry%2520Pi%25203%2520B%252B%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D16ee7cb85cbb0f58aee1cca471df6254&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540s-katsumata%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D708ec4afb50760a61645e8bd55c3df4d&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=32e29c07e507e6d68e59b117d7fb9469" data-lightbox="roadtrip" data-title="Sdカード復旧 Raspberry Pi 3 B Qiita">
+						<img class="card-img" src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fcdn.qiita.com%2Fassets%2Fpublic%2Farticle-ogp-background-1150d8b18a7c15795b701a55ae908f94.png?ixlib=rb-4.0.0&amp;w=1200&amp;mark=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D380%26txt%3DSD%25E3%2582%25AB%25E3%2583%25BC%25E3%2583%2589%25E5%25BE%25A9%25E6%2597%25A7%2520Raspberry%2520Pi%25203%2520B%252B%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D54%26txt-clip%3Dellipsis%26txt-align%3Dcenter%252Cmiddle%26s%3D16ee7cb85cbb0f58aee1cca471df6254&amp;mark-align=center%2Cmiddle&amp;blend=https%3A%2F%2Fqiita-user-contents.imgix.net%2F~text%3Fixlib%3Drb-4.0.0%26w%3D840%26h%3D500%26txt%3D%2540s-katsumata%26txt-color%3D%2523333%26txt-font%3DHiragino%2520Sans%2520W6%26txt-size%3D45%26txt-align%3Dright%252Cbottom%26s%3D708ec4afb50760a61645e8bd55c3df4d&amp;blend-align=center%2Cmiddle&amp;blend-mode=normal&amp;s=32e29c07e507e6d68e59b117d7fb9469" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbXx0uH17kTShAB0HuWZ6giZfET0cdcONYe4qqzaLo2Sjh_yz0Lv-ANv9IFU_9Ugk6QHI';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Sdカード復旧 Raspberry Pi 3 B Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://1.bp.blogspot.com/-kleGEjwRCzQ/XpSIYrKvviI/AAAAAAACdqM/XqxH9UUpJwAZtf5l8Vw-HyFUzOZcTxkVgCEwYBhgLKs0DAMBZVoDI1zgXArhJsLm9fM1kVem6FY4DiInjHg77N5vb7WTNmh_EUSxV9xoOqOdPvK63WEM0puboxyb7dABOtndxMb8M8aHY1a2aNRnbHu4VFrWT_nybvV741kluhvRNsGrLwOqojYZIBSjrTni_8ecuF_--guVVZ3ck0XyshicAZfurv1aqKioFDLVU46qli0EYpXdo84R2yFt7NYhglQ4a_mKyH4c7GvWOJUI__65ahQdX2W_MstW98d0bhRDsFY2ljvNxSRXPjqq6zX8RAfMZdmG2pEZWU4vMDhkYwTISk1H36VG6WWz5_LwHBbqrx6cgzSNd6DltOsV4jmXN1WEkzxf-d5gytZwvcIisyyMOqXqPuos5psKuRByWJ859jQKqJ3u8wzwlN1VBRX203euH_B37secwZgkDOno_ujK6vkCnAzIwDA671rC94X73bboM5UWnUn0s8dWFy9U4VKvctFG7xS95LfPUcH6aFTaE1fyp6DPddeTa1znbIurjBID8kJGyo4DwgiuVFNCJSnWXlDEmPk-OWi9ANbvOFIo0BRzEX15aZo96niLa7X8kHz3otOazT3OVZOqFP4Ri8_gmLXEz7eocf_hOTbUw5ZXS9AU/s1600/SDcardFormatter.jpg" data-lightbox="roadtrip" data-title="Sdカードの復旧方法">
+						<img class="card-img" src="https://1.bp.blogspot.com/-kleGEjwRCzQ/XpSIYrKvviI/AAAAAAACdqM/XqxH9UUpJwAZtf5l8Vw-HyFUzOZcTxkVgCEwYBhgLKs0DAMBZVoDI1zgXArhJsLm9fM1kVem6FY4DiInjHg77N5vb7WTNmh_EUSxV9xoOqOdPvK63WEM0puboxyb7dABOtndxMb8M8aHY1a2aNRnbHu4VFrWT_nybvV741kluhvRNsGrLwOqojYZIBSjrTni_8ecuF_--guVVZ3ck0XyshicAZfurv1aqKioFDLVU46qli0EYpXdo84R2yFt7NYhglQ4a_mKyH4c7GvWOJUI__65ahQdX2W_MstW98d0bhRDsFY2ljvNxSRXPjqq6zX8RAfMZdmG2pEZWU4vMDhkYwTISk1H36VG6WWz5_LwHBbqrx6cgzSNd6DltOsV4jmXN1WEkzxf-d5gytZwvcIisyyMOqXqPuos5psKuRByWJ859jQKqJ3u8wzwlN1VBRX203euH_B37secwZgkDOno_ujK6vkCnAzIwDA671rC94X73bboM5UWnUn0s8dWFy9U4VKvctFG7xS95LfPUcH6aFTaE1fyp6DPddeTa1znbIurjBID8kJGyo4DwgiuVFNCJSnWXlDEmPk-OWi9ANbvOFIo0BRzEX15aZo96niLa7X8kHz3otOazT3OVZOqFP4Ri8_gmLXEz7eocf_hOTbUw5ZXS9AU/s1600/SDcardFormatter.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgAuuouo890hX_KDaz1128ty5zpdP-deRhtMHPGmV_PShQ9ZLt-jcXHHe0DRK0uZ5Mrxk';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Sdカードの復旧方法
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://blog2.zunbe.com/wp/wp-content/uploads/2016/08/SDCARD-CAP-01.png" data-lightbox="roadtrip" data-title="Sdカードを修復 プログラマ ずんべ の日記">
+						<img class="card-img" src="http://blog2.zunbe.com/wp/wp-content/uploads/2016/08/SDCARD-CAP-01.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUh-7B9ZHtoRxfdxfsp2Ef4pkNL4zFGa0QA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Sdカードを修復 プログラマ ずんべ の日記
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.partitionwizard.jp/images/uploads/articles/2019/10/system-can-not-find-file-specified/system-can-not-find-file-specified-20.png" data-lightbox="roadtrip" data-title="Raspberry Piで 使うsdカードのフォーマット Fat32に再フォーマット">
+						<img class="card-img" src="https://www.partitionwizard.jp/images/uploads/articles/2019/10/system-can-not-find-file-specified/system-can-not-find-file-specified-20.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMun0jVkb1HNKroke0wmAxmswWjTFjyZbUXA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Piで 使うsdカードのフォーマット Fat32に再フォーマット
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i.gyazo.com/fe5fc02aa011978883820802b2777220.png" data-lightbox="roadtrip" data-title="Sdカード復旧 Raspberry Pi 3 B Qiita">
+						<img class="card-img" src="https://i.gyazo.com/fe5fc02aa011978883820802b2777220.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD5yOUBBm8ITG3CPxc5uwX3fwq99NhVE7CTQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Sdカード復旧 Raspberry Pi 3 B Qiita
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://itdecoboconikki.com/wp-content/uploads/2017/02/20170215_135122734_iOS-1024x768.jpg" data-lightbox="roadtrip" data-title="ラズベリーパイのバックアップをimgファイルでお手軽に">
+						<img class="card-img" src="https://itdecoboconikki.com/wp-content/uploads/2017/02/20170215_135122734_iOS-1024x768.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lBOKJ5bAbNI9hlUvZ1e8Spo85CaNy-npIA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				ラズベリーパイのバックアップをimgファイルでお手軽に
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ak.f.st-hatena.com/images/fotolife/t/temcee/20180201/20180201233054.png" data-lightbox="roadtrip" data-title="動かなくなったraspberry Pi入りmicro Sdをwindowsから修復させてみた ｗｉｃの中から">
+						<img class="card-img" src="https://cdn-ak.f.st-hatena.com/images/fotolife/t/temcee/20180201/20180201233054.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkNoCQEmKtyrYT9r5sAVpFGmzpBeFIz0aM4w';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				動かなくなったraspberry Pi入りmicro Sdをwindowsから修復させてみた ｗｉｃの中から
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://windowsbulletin.com/wp-content/uploads/2019/01/fsck-500x356.png" data-lightbox="roadtrip" data-title="修復 Raspberry Piの破損したsdカード Windows速報チュートリアル">
+						<img class="card-img" src="http://windowsbulletin.com/wp-content/uploads/2019/01/fsck-500x356.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YFKqLFywQNNv3dzTuisT6haPqfpGLtnOjw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				修復 Raspberry Piの破損したsdカード Windows速報チュートリアル
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/02/IMG_0579.jpg" data-lightbox="roadtrip" data-title="はじめてのraspberry Pi 2 Developersio">
+						<img class="card-img" src="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2015/02/IMG_0579.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqtIO1YX3cZP3SedsLjmYPO8dxseX1hgdfVA';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				はじめてのraspberry Pi 2 Developersio
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2020/12/raspberry-pi.png" data-lightbox="roadtrip" data-title="ラズパイ初心者がraspberry Pi 4 Model Bのosを不注意で起動不良としてしまったので復旧させた話 Developersio">
+						<img class="card-img" src="https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2020/12/raspberry-pi.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLXfeEHTIJlxdThIocdnJJhCY8FQcNel89Q';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				ラズパイ初心者がraspberry Pi 4 Model Bのosを不注意で起動不良としてしまったので復旧させた話 Developersio
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://images-na.ssl-images-amazon.com/images/I/81QuegNgNJL._AC_SL1500_.jpg" data-lightbox="roadtrip" data-title="Amazon Traskit Raspberry Pi 4 Model B ラズベリーパイ4b 8gb Ram 技適マーク付 Microsdhc カード128gb Noobsプリインストール 簡単に取り付けるケース 5 1v 3a Type C スイッチ付電源 2つのmicrohdmi To Hdmiケーブルライン 3つヒートシンクと2つの透明静音冷却">
+						<img class="card-img" src="https://images-na.ssl-images-amazon.com/images/I/81QuegNgNJL._AC_SL1500_.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMYZGil-v9E21PQkWKE0BNx2xatLWe6R4dRQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Amazon Traskit Raspberry Pi 4 Model B ラズベリーパイ4b 8gb Ram 技適マーク付 Microsdhc カード128gb Noobsプリインストール 簡単に取り付けるケース 5 1v 3a Type C スイッチ付電源 2つのmicrohdmi To Hdmiケーブルライン 3つヒートシンクと2つの透明静音冷却
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://www.partitionwizard.jp/images/uploads/articles/2019/10/system-can-not-find-file-specified/system-can-not-find-file-specified-thumbnail.jpg" data-lightbox="roadtrip" data-title="Raspberry Piで 使うsdカードのフォーマット Fat32に再フォーマット">
+						<img class="card-img" src="https://www.partitionwizard.jp/images/uploads/articles/2019/10/system-can-not-find-file-specified/system-can-not-find-file-specified-thumbnail.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaiUULpMSRNgsZ1jV45fm2jHB1SNMG0e6-Q';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Piで 使うsdカードのフォーマット Fat32に再フォーマット
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="http://blog2.zunbe.com/wp/wp-content/uploads/2016/08/SDCARD2GB.jpg" data-lightbox="roadtrip" data-title="Sdカードを修復 プログラマ ずんべ の日記">
+						<img class="card-img" src="http://blog2.zunbe.com/wp/wp-content/uploads/2016/08/SDCARD2GB.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9_Mpf4l5E6FkRyOU4vbGcKCDpA2krkPm3g';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Sdカードを修復 プログラマ ずんべ の日記
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://ouchi-hack.com/wp-content/uploads/2019/03/category_raspberry_pi_20190309_001.jpg" data-lightbox="roadtrip" data-title="Raspberry Piで使用するsdカードをバックアップする エンジニアuのおうちハック">
+						<img class="card-img" src="https://ouchi-hack.com/wp-content/uploads/2019/03/category_raspberry_pi_20190309_001.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvvc5DjxuxFB7UVFklaahT9NQrvpROCXKMw';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				Raspberry Piで使用するsdカードをバックアップする エンジニアuのおうちハック
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+						
+	  <div class='card'>
+	  	<a href="https://i.ytimg.com/vi/6eru9l7Op0A/maxresdefault.jpg" data-lightbox="roadtrip" data-title="壊れたマイクロsdカードを修復する方法 詳細 解説 アレッサ Youtube">
+						<img class="card-img" src="https://i.ytimg.com/vi/6eru9l7Op0A/maxresdefault.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzfULN57pOJWGSdeIh24btrbAwe2Fie-zeFQ';">
+				
+	    </a>
+	    		<p class='blockquote-footer py-1 px-2'>
+			<i>
+				<small class='text-muted'>
+				壊れたマイクロsdカードを修復する方法 詳細 解説 アレッサ Youtube
+				</small>
+			</i>        
+		</p>
+	  </div>
+
+		
+		
+	</div>
+
+		 
+		<div class="d-block mt-4 p-3">
+
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+		
+				</div>
+				<div class="col-sm-12 widget">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center py-4">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+					
+				</div>
+			</div>
+		</main>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+		
+		<!-- Footer CSS JS -->
+<!-- Statcounter code for 2_mamakamaa https://mamakamaa.blogspot.com/ on Blogger -->
+<script type="text/javascript">
+//<![CDATA[
+var sc_project=12506186; 
+var sc_invisible=1; 
+var sc_security="04fde361"; 
+//]]>
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter_xhtml.js" async></script>
+
+		
+		
+		
+			</body>
+</html>
